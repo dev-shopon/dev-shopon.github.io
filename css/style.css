@@ -1,4 +1,128 @@
-body{
-    background-color: aqua;
-    font-family: 'Open Sans';font-size: 22px;
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* background-img */
+
+.cov-img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.web-contant{
+    position: relative;
+}
+
+/* banner  */
+
+.banner-col {
+    background-color: lightgreen;
+    color: darkslategray;
+}
+
+.banner-col:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.banner-container a {
+    text-decoration: none;
+}
+
+/* About me section */
+
+.container-about {
+    background-color: #00BDBD;
+}
+/* About me section */
+
+.container-about {
+    background-color: #00BDBD;
+}
+
+.circle {
+    /* width: 150px;
+    height: 150px;
+    border-radius: 50%; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* background-color: green; */
+}
+
+.external-link {
+    text-decoration: none;
+    color: #12467e;
+}
+
+.external-link:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:767px) {
+    .hid-sm {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hid-lg {
+        display: none;
+    }
+}
+
+.bg-col-2 {
+    background-color: #46d1d1;
+    color: white;
+}
+
+.bg-col-2:hover {
+    background-color: #7ae7e7;
+    color: black;
+}
+
+.about-cards {
+    background-color: #7ae7e7;
+}
+
+.about-cards:hover {
+    background-color: #c0f8f8;
+}
+
+
+/* highlight section */
+
+.container-hl {
+    background-color: #EEEEEE;
+}
+
+.redtype {
+    color: #FB857F;
+}
+
+.bg-col-more {
+    background-color: #d6d1d1;
+    color: #0e7c0e;
+}
+
+.bg-col-more:hover {
+    background-color: #FB857F;
+    color: white;
+    border: 3px solid white;
+}
+
+.bg-col {
+    background-color: #d6d1d1;
+    color: black;
+}
+
+.bg-col:hover {
+    background-color: #FB857F;
+    color: white;
+    border: 3px solid white;
+    outline: 2px solid #fb857f;
 }
